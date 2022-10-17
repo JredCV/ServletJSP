@@ -5,7 +5,7 @@
     <title>JSP - Main Menu</title>
 </head>
 <body>
-<h1><%= "Add User" %>
+<h1><%= "Add Customer" %>
 </h1>
 <br/>
 <a href="UserServlet">Click Here</a>

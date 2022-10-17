@@ -30,9 +30,12 @@
         for (User user: userList) {
       %>
       <tr>
-        <td><%=user.getDocument()%></td>
-        <td><%=user.getMail()%></td>
+        <td><%=user.getNomCli()%></td>
+        <td><%=user.getApeCli()%></td>
+        <td><%=user.getDni()%></td>
+        <td><%=user.getEmail()%></td>
         <td><%=user.getUsername()%></td>
+        <td><%=user.getPass()%></td>
       </tr>
       <%    }%>
       </tbody>

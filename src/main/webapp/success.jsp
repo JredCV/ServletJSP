@@ -11,7 +11,7 @@
     <title>User Register Successfully</title>
 </head>
 <body>
-    <h1>El usuario ha sido registrado en la base de datos</h1>
+    <h1>El cliente ha sido registrado en la base de datos</h1>
 
     <h3> Filas afectadas : <%=request.getAttribute("rowsaffected")%></h3>
 </body>
